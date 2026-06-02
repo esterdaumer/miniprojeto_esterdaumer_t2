@@ -105,8 +105,8 @@ Quartis:
 - A maior parte dos clientes cadastrados não possui filhos, conforme indicado pela mediana e moda iguais a zero.
 - Houve uma quantidade ligeiramente maior de registros do gênero feminino.
 - O tratamento das inconsistências e a remoção de dados desnecessários contribuíram para uma análise mais confiável.
-- A qualidade dos dados influencia diretamente os resultados obtidos em qualquer processo analítico.
-
+- A qualidade dos dados influencia diretamente os resultados obtidos em qualquer processo analítico.s 
+ 
 ## Aprendizados
 
 Este projeto foi muito importante para o meu aprendizado, principalmente por estar iniciando meus estudos na área de Análise de Dados.
