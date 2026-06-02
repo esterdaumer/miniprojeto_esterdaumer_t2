@@ -105,7 +105,19 @@ Quartis:
 - A maior parte dos clientes cadastrados não possui filhos, conforme indicado pela mediana e moda iguais a zero.
 - Houve uma quantidade ligeiramente maior de registros do gênero feminino.
 - O tratamento das inconsistências e a remoção de dados desnecessários contribuíram para uma análise mais confiável.
-- A qualidade dos dados influencia diretamente os resultados obtidos em qualquer processo analítico.s 
+- A qualidade dos dados influencia diretamente os resultados obtidos em qualquer processo analítico.
+
+  
+  ## ETL e Qualidade dos Dados
+
+O processo realizado neste projeto seguiu conceitos básicos de ETL (Extract, Transform and Load).
+
+* Extração: leitura da base de dados em formato CSV utilizando a biblioteca Pandas.
+* Transformação: remoção de colunas vazias, eliminação de registros duplicados, tratamento de categorias sem informação e conversão da coluna DATA para o tipo datetime.
+* Carga: geração de uma nova base tratada (df_limpo.csv), pronta para futuras análises.
+
+A qualidade dos dados é fundamental para garantir resultados confiáveis. Durante a análise foram identificados registros duplicados, colunas totalmente vazias e categorias inconsistentes, problemas que poderiam comprometer a interpretação dos resultados caso não fossem tratados.
+
  
 ## Aprendizados
 
